@@ -1,0 +1,39 @@
+.random-anime {
+    display: flex;
+    flex-direction: row;
+    padding: 1.5rem;
+    position: relative;
+}
+
+.random-anime img {
+    width: 220px;
+    height: 300px;
+    border-radius: 25px;
+    margin-right: 1rem;
+}
+
+.random-anime .list-group {
+    margin: 1rem 0 0 1rem;
+}
+
+.random-anime .list-group-item {
+    padding: 0.5rem; 
+}
+
+.random-anime .list-group-item .term {
+    margin-right: 0.7rem; 
+}
+
+.random-anime small {
+    color: rgb(182, 180, 180);
+}
+
+#blind-header {
+    position: absolute;
+    color: gray(255, 166, 0);
+    opacity: 0.24;
+    top: 10px;
+    right: 10px;
+}
+/* .random-anime list- */
+
