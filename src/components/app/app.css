@@ -1,3 +1,7 @@
+body {
+  background: linear-gradient(90deg, #21003a, #33007b, #31004a);
+}
+
 .button-row {
   margin: 0 0 1rem 0;
 }

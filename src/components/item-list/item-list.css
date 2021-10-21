@@ -4,8 +4,9 @@
 
 .item-list .list-group-item {
     cursor:pointer;
+    background: #191922;
 }
 
 .item-list .list-group-item:hover {
-    background-color: grey;
+    background-color: #292932;
 }

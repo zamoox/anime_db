@@ -1,6 +1,6 @@
-import SwapiService from './swapi-service';
+import AnimeService from './anime-service';
 import TestService from './test-service';
 
 export { TestService };
-export default SwapiService;
+export default AnimeService;
  

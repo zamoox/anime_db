@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 
-import { AnimeList, AnimeDetails } from '../sw-components';
+import { AnimeList, AnimeDetails } from '../custom-components';
 
 import Row from '../row';
 

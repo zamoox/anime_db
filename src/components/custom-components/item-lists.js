@@ -2,7 +2,7 @@ import React from 'react';
 
 import ItemList from '../item-list';
 
-import { withData, withSwapiService, 
+import { withData, withAnimeService, 
     withChildFunction, Compose} from '../hoc-helpers';
 
 //render functions 
@@ -28,19 +28,19 @@ const mapStarshipMethodsToProps = (service) => {
 }
 
 const PeopleList = Compose(
-                        withSwapiService(mapPersonMethodsToProps),
+                        withAnimeService(mapPersonMethodsToProps),
                         withData,
                         withChildFunction(renderName)
                     )(ItemList);
 
 const AnimeList = Compose(
-                        withSwapiService(mapAnimeMethodsToProps),
+                        withAnimeService(mapAnimeMethodsToProps),
                         withData,
                         withChildFunction(renderName)
                     )(ItemList);
 
 const StarshipList = Compose(
-                        withSwapiService(mapStarshipMethodsToProps),
+                        withAnimeService(mapStarshipMethodsToProps),
                         withData,
                         withChildFunction(renderName)
                     )(ItemList);

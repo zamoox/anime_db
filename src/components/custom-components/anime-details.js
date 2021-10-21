@@ -1,7 +1,7 @@
 import React from 'react';
 
 import ItemDetails, { Record } from '../item-details';
-import { withSwapiService } from '../hoc-helpers';
+import { withAnimeService } from '../hoc-helpers';
 
 const AnimeDetails = (props) => {
     return (
@@ -14,10 +14,10 @@ const AnimeDetails = (props) => {
     );
 };
 
-const mapMethodsToProps = (swapiService) => {
+const mapMethodsToProps = (animeService) => {
     return {
-        getData: swapiService.getAnime,
+        getData: animeService.getAnime,
     }
 }
 
-export default withSwapiService(mapMethodsToProps)(AnimeDetails);
+export default withAnimeService(mapMethodsToProps)(AnimeDetails);

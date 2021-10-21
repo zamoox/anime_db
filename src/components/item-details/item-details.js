@@ -62,7 +62,7 @@ export default class ItemDetails extends Component {
         }
 
         return (
-            <div className="card">
+            <div className="card" style={{ "background": "#191922"}}>
             <div className = "item-details card">
                 <img src={img} alt={title}></img>
                 <div className="card-body">
